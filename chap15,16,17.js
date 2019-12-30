@@ -1,0 +1,15 @@
+var courses=[];
+var course1=prompt("course 1");
+var course2=prompt("course 2");
+var course3=prompt("course 3");
+var course4=prompt("course 4");
+var course5=prompt("course 5");
+courses.push(course1, course2, course3, course4, course5);
+alert(courses);
+courseN1=prompt("course 1",course1);
+courseN2=prompt("course 2",course2);
+courseN3=prompt("course 3",course3);
+courseN4=prompt("course 4",course4);
+courseN5=prompt("course 5",course5);
+courses.splice(0,5, courseN1,courseN2,courseN3,courseN4,courseN5);
+alert(courses);
